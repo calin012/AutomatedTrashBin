@@ -42,15 +42,12 @@ void loop() {
     myServo.write(0);   
     delay(180);         
 
-    // Stop
     myServo.write(90);
     delay(5000);         
 
-    // Rotate backward
     myServo.write(180);  
     delay(180);         
 
-    // Stop again
     myServo.write(90);
   } else {
     myServo.write(90);   
